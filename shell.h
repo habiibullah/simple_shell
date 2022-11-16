@@ -13,7 +13,9 @@
 #include <dirent.h>
 #include <signal.h>
 #include <errno.h>
-
+#include <time.h>
+#include <stdbool.h>
+#include <stdarg.h>
 /**
  * struct list - linked list for environmental variables
  * @var: holds environmental variable string
